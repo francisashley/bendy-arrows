@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "extends": ["plugin:vue/strongly-recommended", "eslint:recommended", "@vue/typescript/recommended", "prettier"],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "prefer-const": ["warn", { "destructuring": "all" }],
+    "vue/no-mutating-props": "off",
+    // not needed for vue 3
+    "vue/no-multiple-template-root": "off",
+    "vue/multi-word-component-names": "off",
+    "vue/no-v-for-template-key": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "vue/no-reserved-props": "off",
+    "no-case-declarations": "off"
+  }
+}
