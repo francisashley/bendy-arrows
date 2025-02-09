@@ -15,7 +15,7 @@ export function createArrows(
   return {
     setConnections(newConnections: Array<{ source: string; target: string }>) {
       // Clear existing
-      connections.forEach((conn) => conn.svg?.remove())
+      connections.forEach((connection) => connection.svg?.remove())
       connections.clear()
       selectedId = null
 

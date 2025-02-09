@@ -1,6 +1,6 @@
 {
   "name": "bendy-arrows",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "Display an arrow between two html elements on the page.",
   "author": "Francis Ashley",

@@ -29,7 +29,6 @@ export function generateConnectionPath(
   arrowLength: number = 0,
 ): string {
   const adjustedEnd = arrowLength ? adjustEndPoint(end, endSide, arrowLength) : end
-  console.log(`end,adjustedEnd >>>`, end, adjustedEnd)
   if (startSide === 'left' || startSide === 'right' || endSide === 'left' || endSide === 'right') {
     return (
       linkHorizontal()({
